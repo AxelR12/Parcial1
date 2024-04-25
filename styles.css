@@ -1,0 +1,125 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+button {
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error-msg {
+    color: #dc3545;
+}
+
+/* Estilos para la página de login */
+
+#login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#login-container h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+#login-container input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilos para el dashboard del pasajero */
+
+#passenger-dashboard {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#passenger-dashboard h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+#trips-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+#trips-list li {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#load-more-btn {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Estilos para el dashboard del conductor */
+
+#driver-dashboard {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#driver-dashboard h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+#trip-amounts-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+#trip-amounts-list li {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#total-amount {
+    margin-top: 20px;
+    font-weight: bold;
+}
